@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://bpfqp7k6xtuad"]
+
+[ext_resource type="Script" path="res://card.gd" id="1_2s7ql"]
+
+[node name="card" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_2s7ql")
+
+[node name="FrontTexture" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+stretch_mode = 5
+
+[node name="BackTexture" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+stretch_mode = 5

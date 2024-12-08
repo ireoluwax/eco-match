@@ -1,0 +1,25 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Eco-Match"
+config/description="Eco-Match is an engaging memory flip card game designed to entertain and educate players about the wonders of our environment. Players are challenged to match pairs of cards featuring vibrant eco-themed illustrations, such as flora, fauna, and natural elements, while racing against the clock.
+
+The game sharpens memory skills, rewards quick thinking with points, and offers a thrilling experience as players strive to flip, match, and win! Complete all matches before time runs out to claim victory, and enjoy the serene background music that immerses you in nature's beauty. Suitable for all ages, Eco-Match is a perfect blend of fun, learning, and environmental awareness!"
+run/main_scene="res://start_screen.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
+boot_splash/image="res://assets/images/boot_splash_01.png"
+config/icon="res://assets/icons/icon-01.svg"
+
+[display]
+
+window/size/viewport_width=800
+window/size/viewport_height=650
